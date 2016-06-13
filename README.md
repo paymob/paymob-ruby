@@ -21,8 +21,13 @@ Or install it yourself as:
     $ gem install paymob
 
 ## Usage
+First argument is key
+```ruby
+require 'paymob'
+Paymob.secure_hash 'test', {'a': '1', 'b': '2', 'c': ''}
+```
 
-TODO: Write usage instructions here
+gem install paymob-0.1.0.gem to install from gemfile
 
 ## Development
 
