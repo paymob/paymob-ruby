@@ -22,6 +22,6 @@ Or install it yourself as:
 First argument is key
 ```ruby
 require 'paymob'
-Paymob.secure_hash 'test', {'a': '1', 'b': '2', 'c': ''}
+`Paymob.calc_secure_hash 'test', {'a': '1', 'b': '2', 'c': ''}`
 ```
 
